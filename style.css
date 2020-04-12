@@ -42,6 +42,7 @@ h1 {
 #splitInput {
   width: 45%;
   align-items: center;
+  vertical-align: middle;
 }
 hr {
   width: 80%;
