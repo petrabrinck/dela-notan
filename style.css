@@ -91,9 +91,9 @@ label, input {
 @media(min-width: 700px) {
   body {
     background: ghostwhite;
-    /* background-size: cover;   */
-    margin-top: 40px;
-    max-width: 40%;
+    margin: 40px auto;
+    /* margin-top: 40px; */
+    max-width: 50%;
   }
   #container {
     opacity: 0.8;
