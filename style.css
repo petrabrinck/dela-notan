@@ -1,0 +1,107 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+  width: 100%;
+  margin: 20px 0px;
+  letter-spacing: 0.5px;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(218, 218, 233);
+}
+h1 {
+  text-align: center;
+  padding: 0px;
+}
+.topEmoji {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  flex-direction: row;
+}
+#div {
+  display: flex;
+  flex-direction: row;
+}
+#container {
+  margin-top: 20px;
+  box-sizing: border-box;
+  padding: 1em;
+  background: ghostwhite;
+  background-position: center;
+  width: 80%;
+  border-radius: 50px;
+  border-style: outset;
+  border-style: none;
+  box-shadow: 
+  15px 15px 15px rgb(181, 175, 175),
+  0px 0px 20px 20px white; 
+}
+#tipInput,
+#splitInput {
+  width: 45%;
+  align-items: center;
+}
+hr {
+  width: 80%;
+}
+h3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+label {
+flex-direction: row;
+}
+span {
+  flex-direction: row;
+  align-items: flex-end;
+}
+div {
+  line-height: 3em;
+}
+input[type="text"] {
+  font-size: 1.1em;
+  text-align: center;
+  width: 50%;
+  font-size: 14px;
+  border: 1px solid rgb(225, 225, 225);
+  border-radius: 5px;;
+  background-color: ghostwhite;
+  margin-left: 7px;
+}
+#newBill {
+  align-items: end;
+  justify-content: space-around;
+  margin-left: 10px;  
+}
+#tipEach {
+  align-items: end;
+  justify-content: space-around;
+  margin-left: 3px;  
+}
+label, input {
+  width: 100%;
+}
+
+@media(min-width: 700px) {
+  body {
+    background: ghostwhite;
+    background-size: cover;  
+    margin-top: 40px;
+  }
+  #container {
+    opacity: 0.8;
+  }
+  label, 
+  input {
+    display: inline-block;
+    width: 40%;
+  }
+  div {
+    line-height: 4em;
+  }
+}

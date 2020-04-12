@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css" />
+    <title>Petras Tip Calculator</title>
+    <link href="https://fonts.googleapis.com/css?family=Poppins|Shadows+Into+Light+Two&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+        <h1>Dela på notan<span class="topEmoji">🍸🍴</span> </h1>
+        <hr>
+        <div>
+            <label>Total nota: </label>
+            <input type="text" placeholder="Lägg in belopp..." id="billTotal">
+        </div>
+        <div>
+            <label>Total dricks: </label>
+            <input type="range" value="0" id="tipInput">
+            <span id="tipOutput"></span>
+        </div>
+        <div>
+            <label>Dela med X: </label>
+            <input type="range" min="1" max="15" value="1" id="splitInput">
+            <span id="splitOutput"></span>
+        </div>
+        <hr>
+        <div>
+            <div>
+                <label>Nota per person: </label><span id="newBill"></span>
+            </div>
+            <div>
+                <label>Dricks per person: </label><span id="tipEach"></span>
+            </div>
+        </div>
+        <h3>Ha en trevlig dag!</h3>
+        <script src="script.js"></script>
+</body>
+
+</html>
